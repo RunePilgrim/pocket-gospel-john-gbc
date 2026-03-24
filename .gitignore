@@ -1,0 +1,26 @@
+# build outputs
+*.gb
+*.map
+*.noi
+
+# generated john chunks
+src/john_b*.c
+src/.john_gen_stamp
+
+# OS/editor
+.DS_Store
+.vscode/
+
+# local backups
+*.bak
+_backup_*/
+
+# Claude Code
+.claude/
+
+# large media (link in README instead)
+*.mov
+*.mp4
+
+# school documentation (PDFs, Pages, Numbers)
+documentation/
